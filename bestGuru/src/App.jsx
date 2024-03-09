@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <h2>BESTGURU</h2>
+      <p>Hi hello welcome to the bvest guru</p>
     </>
   )
 }
