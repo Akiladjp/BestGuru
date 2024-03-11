@@ -1,12 +1,10 @@
-
-import './App.css'
+import Login from './Component/Login/Login'
 
 function App() {
 
   return (
     <>
-      <h2>BESTGURU</h2>
-      <p>Hi hello welcome to the best guru</p>
+      <Login/>
     </>
   )
 }
