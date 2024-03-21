@@ -1,5 +1,6 @@
-import Login from './Component/Login/Login'
-import Register from './Component/Register/Register'
+import {BrowserRouter,Routes,Route}from 'react-router-dom'
+import Login from './Component/Login/Login';
+import Register from './Component/Register/Register';
 
 
 function App() {
@@ -7,7 +8,14 @@ function App() {
   return (
     <>
       
-      <Register/>
+      <BrowserRouter>
+      <Routes>
+        <Route exact path='/' element={<Login />} />
+        <Route  path='/Register' element={<Register />} />
+    
+      </Routes>
+      
+      </BrowserRouter>
       
     </>
   )
